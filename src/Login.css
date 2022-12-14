@@ -1,0 +1,70 @@
+.lmain{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 90px 0 90px 0;
+    position: absolute;
+    height: 570px;
+    width: 700px;
+    top:100px;
+    left:640px;
+    
+  }
+  .linner-main{
+    display: flex;
+    justify-content: center;
+    height: 570px;
+    width: 700px;
+    box-shadow: 11px 12px 12px 11px rgb(103, 122, 138);
+    padding-top: 50px;
+    border-radius: 50px;
+    background-color: white;
+  }
+  .llogo{
+    width: 150px;
+    height: 150px;
+  }
+  input{
+    width: 320px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow: inset 0 0 25px 0 rgb(166, 197, 228);
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+  }
+  .lphone{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    padding-top: 22px;
+    padding-left: 10px;
+  }
+  .lpass{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    padding-top: 22px;
+    padding-left: 10px;
+  }
+  .lname{
+    padding-left: 50px;
+    font-size: 20px;
+  }
+  button{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(106, 233, 233);
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: rgb(60, 74, 175);
+  }
+  .lbutton{
+    padding-top: 40px;
+  }
+  .ldetails{
+    padding-top: 20px;
+  }

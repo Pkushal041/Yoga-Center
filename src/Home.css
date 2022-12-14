@@ -1,0 +1,232 @@
+#homeblock{
+    position: absolute;
+    z-index: 3;
+    background-color: rgb(143, 211, 228);
+    background-image: url(images/bg2.jpg);
+    background-position: 0px -250px;
+    
+    font-size: 25px;
+    height: 935px;
+    width: 1920px;
+    visibility: hidden;
+    
+    background-repeat: no-repeat;
+    background-size: 1920px 1190px;
+    overflow: hidden;
+    
+}
+
+#header{
+    height: 350px;
+    width: 1350px;
+    margin-left: 250px;
+    margin-top: 50px;
+    background-color: aliceblue;
+    background-image: url(images/bg1.jpg);
+    background-size: 100% 100%;
+    border-radius: 30px;
+    padding-left: 50px;
+    padding-top: 50px;
+    box-shadow: 0px 0px 10px 4px rgb(95, 147, 189);
+}
+
+#logout{
+    cursor: pointer;
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    margin-left: 1100px;
+    color: aliceblue;
+    background-color: rgb(236, 101, 101);
+    box-shadow: 2px 2px 2px 1px rgb(180, 180, 180);
+}
+
+#detailsblock{
+    display: flex;
+    margin-left: 100px;
+}
+
+#profilepic{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border-radius: 30px;
+    background-image: url(images/profile.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#details{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+
+
+
+
+#bottomcontainer{
+    display: flex;
+}
+
+#plan{
+    padding-left: 40px;
+    padding-top: 20px;
+    height: 360px;
+    width: 610px;
+    margin-top: 50px;
+    background-color: aliceblue;
+    background-image: url(images/bg1.jpg);
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-left: 250px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 4px rgb(95, 147, 189);
+}
+
+#paid{
+    position: absolute;
+    background-color: rgb(151, 255, 156);
+    height: 150px;
+    width: 380px;
+    left: 325px;
+    margin-top:-120px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 4px 2px rgb(185, 185, 185);
+    padding-left: 110px;
+    visibility: hidden;
+    
+}
+#paid h6{
+    margin-left: 55px;
+    margin-top: -10px;
+    color: rgba(0, 0, 0, 0.623);
+}
+
+
+
+#history{
+    padding-left: 40px;
+    padding-top: 20px;
+    height: 360px;
+    width: 610px;
+    margin-top: 50px;
+    background-color: aliceblue;
+    background-image: url(images/bg1.jpg);
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-left: 100px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 4px rgb(95, 147, 189);
+}
+
+
+
+#openpaybutton{
+    cursor: pointer;
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    margin-left: 220px;
+    margin-top: 0px;
+    background-color: rgb(101, 236, 108);
+    box-shadow: 2px 2px 2px 1px rgb(180, 180, 180);
+}
+
+#notpaid h5{
+    margin-top: 60px;
+    margin-left: 60px;
+    color: rgb(253, 107, 107);
+}
+
+
+#paytemp{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.637);
+    top: 0px;
+    visibility: hidden;
+    
+}
+
+#paymentform{
+    position: absolute;
+    padding: 30px;
+    height: fit-content;
+    width: fit-content;
+    top: 200px;
+    left: 730px;
+    background-color: rgb(232, 252, 252);
+    box-shadow: 4px 3px 4px 2px rgb(179, 179, 179);
+    border-radius: 20px;
+    visibility: hidden;
+    
+}
+
+#paymentform h3{
+    margin-top: 0px;
+    margin-bottom: -40px;
+    margin-left: 100px;
+}
+#paymentform b{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+
+input[type="radio"] {
+    visibility: hidden; 
+    height: 0; 
+    width: 0; 
+  }
+  
+label {
+    background-color: aliceblue;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 6px;
+    transition: color --transition-fast ease-out, background-color --transition-fast ease-in;
+    user-select: none;
+    box-shadow: 2px 1px 2px 1px rgb(179, 179, 179);
+}
+
+input[type="radio"]:checked + label {
+    background-color: rgb(47, 231, 255);
+    color: black;
+}
+  
+input[type="radio"]:hover:not(:checked) + label {
+   background-color: rgb(188, 247, 255);
+   color: black;
+}
+
+#paymentform #paycompletebt{
+    cursor: pointer;
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: rgb(101, 236, 108);
+    box-shadow: 2px 2px 2px 1px rgb(180, 180, 180);
+}
+  
+#payclosebt{
+    cursor: pointer;
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    margin-left: 50px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px 1px rgb(180, 180, 180);
+    background-color: rgb(255, 113, 113);
+}
+  
